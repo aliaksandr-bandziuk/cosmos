@@ -138,9 +138,21 @@ body {
 // Подключение стилей общих элементов проекта
 @import "common";
 
+// Подключение Core
+@import "core/reset";
+
+// Подключение компонентов
+@import "components/buttons";
+@import "components/slider1";
+
 // Подключение стилей отдельных блоков
-@import "header";
-@import "footer";
+// @import "header";
+// @import "footer";
+@import "layout/header";
+@import "layout/footer";
 
 // Подключение стилей отдельных страниц
-@import "home";
+// @import "home";
+@import "pages/home";
+
+// Подключение Sections
